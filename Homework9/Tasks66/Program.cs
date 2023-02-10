@@ -10,7 +10,7 @@ Clear();
 Console.Write("Введите натуральное число M:");
 int numberM = int.Parse(Console.ReadLine());
 
-Console.Write("Введите натуральное число M:");
+Console.Write("Введите натуральное число N:");
 int numberN = int.Parse(Console.ReadLine());
 
 void GapNumberSum (int numberM, int numberN, int sum)
