@@ -8,7 +8,8 @@ int number = int.Parse(Console.ReadLine());
 
 void NumberCounter (int number)
 {
-    if (number == 0) return;
+    if (number == 0) 
+    return;
     Console.Write("{0,2}", number);
 
     NumberCounter (number - 1);
